@@ -7,13 +7,13 @@ public class EstruturaCondicional {
         System.out.println("quantas horas ?");
         hora = sc.nextInt();
 
-        if(hora < 12) {
+        if (hora < 12) {
             System.out.println("bom dia");
-        } else if(hora < 18) {
-                System.out.println("boa tarde");
-            } else {
-                System.out.println("boa noite");
-            }
+        } else if (hora < 18) {
+            System.out.println("boa tarde");
+        } else {
+            System.out.println("boa noite");
+        }
         sc.close();
     }
 
