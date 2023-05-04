@@ -31,7 +31,7 @@ public class Main {
       System.out.println(result);
     }
 
-    String name = list.stream().filter(x -> x.charAt(0) == "J").findFirst().orElse(null);
+    // name = list.stream().filter(x -> x.charAt(0) == "J").findFirst().orElse(null);
   }
 }
 
