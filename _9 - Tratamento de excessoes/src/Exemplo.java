@@ -1,8 +1,7 @@
-import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class Exemplo {
   public static void main(String[] args) {
     method1();
     System.out.println("End of program");
