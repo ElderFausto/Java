@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class Exemplo1 {
   public static void main(String[] args) {
     File file = new File("E:\\Elder\\elder.txt");
     Scanner sc = null;
