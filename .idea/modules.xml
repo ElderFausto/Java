@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1-Estrutura-sequencial/1-Estrutura-sequencial.iml" filepath="$PROJECT_DIR$/1-Estrutura-sequencial/1-Estrutura-sequencial.iml" />
       <module fileurl="file://$PROJECT_DIR$/2-poo/2-poo.iml" filepath="$PROJECT_DIR$/2-poo/2-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/Aula-youtube-arqcsv.iml" filepath="$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/Aula-youtube-arqcsv.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/Default-methods/Default-methods.iml" filepath="$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/Default-methods/Default-methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/_9 - Tratamento de excessoes/Exercicio/Exercicio.iml" filepath="$PROJECT_DIR$/_9 - Tratamento de excessoes/Exercicio/Exercicio.iml" />
       <module fileurl="file://$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/ExercicioLista/ExercicioLista.iml" filepath="$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/ExercicioLista/ExercicioLista.iml" />
@@ -23,12 +24,14 @@
       <module fileurl="file://$PROJECT_DIR$/_8 - Metodos abstratos/_8 - Metodos abstratos.iml" filepath="$PROJECT_DIR$/_8 - Metodos abstratos/_8 - Metodos abstratos.iml" />
       <module fileurl="file://$PROJECT_DIR$/_9 - Tratamento de excessoes/_9 - Tratamento de excessoes.iml" filepath="$PROJECT_DIR$/_9 - Tratamento de excessoes/_9 - Tratamento de excessoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/ex-interface-classeAbstrata/ex-interface-classeAbstrata.iml" filepath="$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/ex-interface-classeAbstrata/ex-interface-classeAbstrata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/exemplo-escrita/exemplo-escrita.iml" filepath="$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/exemplo-escrita/exemplo-escrita.iml" />
       <module fileurl="file://$PROJECT_DIR$/_7 - Heranca e polimorfismo/exercicio/exercicio.iml" filepath="$PROJECT_DIR$/_7 - Heranca e polimorfismo/exercicio/exercicio.iml" />
       <module fileurl="file://$PROJECT_DIR$/_7 - Heranca e polimorfismo/exercicio fixacao/exercicio fixacao.iml" filepath="$PROJECT_DIR$/_7 - Heranca e polimorfismo/exercicio fixacao/exercicio fixacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/_9 - Tratamento de excessoes/exercicio fixacao1/exercicio fixacao1.iml" filepath="$PROJECT_DIR$/_9 - Tratamento de excessoes/exercicio fixacao1/exercicio fixacao1.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/exercicio-comparable/exercicio-comparable.iml" filepath="$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/exercicio-comparable/exercicio-comparable.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/exercicio-interface.iml" filepath="$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/exercicio-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/exercicio-interface-fixacao/exercicio-interface-fixacao.iml" filepath="$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/exercicio-interface-fixacao/exercicio-interface-fixacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/exercicio-proposto/exercicio-proposto.iml" filepath="$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/exercicio-proposto/exercicio-proposto.iml" />
       <module fileurl="file://$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/exercicio2/exercicio2.iml" filepath="$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/exercicio2/exercicio2.iml" />
       <module fileurl="file://$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/exercicio3/exercicio3.iml" filepath="$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/exercicio3/exercicio3.iml" />
       <module fileurl="file://$PROJECT_DIR$/_6 - Enumeracoes/exercicioFInal/exercicioFInal.iml" filepath="$PROJECT_DIR$/_6 - Enumeracoes/exercicioFInal/exercicioFInal.iml" />
@@ -38,6 +41,7 @@
       <module fileurl="file://$PROJECT_DIR$/2-poo/exerciseMembrosEstaticos/exerciseMembrosEstaticos.iml" filepath="$PROJECT_DIR$/2-poo/exerciseMembrosEstaticos/exerciseMembrosEstaticos.iml" />
       <module fileurl="file://$PROJECT_DIR$/_6 - Enumeracoes/exericio2/exericio2.iml" filepath="$PROJECT_DIR$/_6 - Enumeracoes/exericio2/exericio2.iml" />
       <module fileurl="file://$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/forEach/forEach.iml" filepath="$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/forEach/forEach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/meu-exemplo/meu-exemplo.iml" filepath="$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/meu-exemplo/meu-exemplo.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/problema-diamante/problema-diamante.iml" filepath="$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/problema-diamante/problema-diamante.iml" />
     </modules>
   </component>
