@@ -13,10 +13,8 @@ public class Main {
     String path = "E:\\elder\\elder.txt";
     List<Product> list = new ArrayList<>();
 
-
-    try (BufferedReader br = new BufferedReader(new FileReader(path))){
+    try (BufferedReader br = new BufferedReader(new FileReader(path))) {
       String line = br.readLine();
-
       while (line != null) {
         String[] vect = line.split(", ");
         String name = vect[0];
@@ -32,7 +30,7 @@ public class Main {
         System.out.println(p);
       }
     } catch (IOException error) {
-      System.out.println(error.getMessage());
+      error.printStackTrace();
     }
   }
 }

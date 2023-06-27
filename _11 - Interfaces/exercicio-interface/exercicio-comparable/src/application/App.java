@@ -15,7 +15,9 @@ public class App {
     String path = "E:\\elder\\elder.txt";
 
     try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+
       String employeeCsv = br.readLine();
+
       while (employeeCsv != null) {
         String[] fields = employeeCsv.split(",");
         list.add(new Employee(fields[0], Double.parseDouble(fields[1])));
