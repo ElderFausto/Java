@@ -11,7 +11,7 @@ public class PrintService<TGeneric> {
   }
 
   public TGeneric first() {
-    if(list.isEmpty()) {
+    if (list.isEmpty()) {
       throw new IllegalStateException("List is empty");
     }
     return list.get(0);
