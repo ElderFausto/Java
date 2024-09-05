@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1-Estrutura-sequencial/1-Estrutura-sequencial.iml" filepath="$PROJECT_DIR$/1-Estrutura-sequencial/1-Estrutura-sequencial.iml" />
       <module fileurl="file://$PROJECT_DIR$/2-poo/2-poo.iml" filepath="$PROJECT_DIR$/2-poo/2-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12 - Tipos coringa/Areas/Areas.iml" filepath="$PROJECT_DIR$/_12 - Tipos coringa/Areas/Areas.iml" />
       <module fileurl="file://$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/Aula-youtube-arqcsv.iml" filepath="$PROJECT_DIR$/_10 - Trabalhando com arquivos/Aula-youtube-arqcsv/Aula-youtube-arqcsv.iml" />
       <module fileurl="file://$PROJECT_DIR$/_12 - Tipos coringa/Coringa Delimitados/Coringa Delimitados.iml" filepath="$PROJECT_DIR$/_12 - Tipos coringa/Coringa Delimitados/Coringa Delimitados.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/Default-methods/Default-methods.iml" filepath="$PROJECT_DIR$/_11 - Interfaces/exercicio-interface/Default-methods/Default-methods.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/_12 - Generics, set, map/Generics Delimitados/Generics Delimitados.iml" filepath="$PROJECT_DIR$/_12 - Generics, set, map/Generics Delimitados/Generics Delimitados.iml" />
       <module fileurl="file://$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/List/List.iml" filepath="$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/List/List.iml" />
       <module fileurl="file://$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/Matriz/Matriz.iml" filepath="$PROJECT_DIR$/_4-  Comportamento de memorias arrays listas/Matriz/Matriz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12 - Tipos coringa/Supertipos/Supertipos.iml" filepath="$PROJECT_DIR$/_12 - Tipos coringa/Supertipos/Supertipos.iml" />
       <module fileurl="file://$PROJECT_DIR$/_10 - Trabalhando com arquivos/_10 - Trabalhando com arquivos.iml" filepath="$PROJECT_DIR$/_10 - Trabalhando com arquivos/_10 - Trabalhando com arquivos.iml" />
       <module fileurl="file://$PROJECT_DIR$/_12 - Generics, set, map/_12 - Generics, set, map.iml" filepath="$PROJECT_DIR$/_12 - Generics, set, map/_12 - Generics, set, map.iml" />
       <module fileurl="file://$PROJECT_DIR$/_12 - Tipos coringa/_12 - Tipos coringa.iml" filepath="$PROJECT_DIR$/_12 - Tipos coringa/_12 - Tipos coringa.iml" />
