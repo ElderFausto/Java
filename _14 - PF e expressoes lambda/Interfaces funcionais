@@ -1,0 +1,96 @@
+Em Java, as interfaces funcionais são aquelas que possuem exatamente um método abstrato, embora possam conter outros métodos padrão ou estáticos. Elas são amplamente usadas em expressões lambda e programação funcional. A anotação @FunctionalInterface pode ser usada para indicar que uma interface é funcional, embora não seja obrigatória.
+
+Aqui estão os principais tipos de interfaces funcionais em Java e exemplos de uso:
+
+1. Runnable
+Uma das interfaces funcionais mais simples. Ela não aceita nenhum parâmetro e não retorna valor.
+
+Método abstrato: void run()
+Exemplo:
+
+java
+Copiar código
+Runnable runnable = () -> System.out.println("Runnable executado");
+runnable.run();
+2. Supplier<T>
+Representa uma função que não recebe nenhum parâmetro, mas retorna um valor do tipo T.
+
+Método abstrato: T get()
+Exemplo:
+
+java
+Copiar código
+Supplier<String> supplier = () -> "Fornecedor de String";
+System.out.println(supplier.get());
+3. Consumer<T>
+Representa uma função que aceita um argumento do tipo T, mas não retorna nenhum valor.
+
+Método abstrato: void accept(T t)
+Exemplo:
+
+java
+Copiar código
+Consumer<String> consumer = (s) -> System.out.println("Consumindo: " + s);
+consumer.accept("Hello, Java!");
+4. Function<T, R>
+Representa uma função que aceita um argumento do tipo T e retorna um valor do tipo R.
+
+Método abstrato: R apply(T t)
+Exemplo:
+
+java
+Copiar código
+Function<Integer, String> function = (i) -> "Número: " + i;
+System.out.println(function.apply(5));
+5. Predicate<T>
+Representa uma função que aceita um argumento do tipo T e retorna um valor booleano.
+
+Método abstrato: boolean test(T t)
+Exemplo:
+
+java
+Copiar código
+Predicate<Integer> isEven = (n) -> n % 2 == 0;
+System.out.println(isEven.test(4));  // true
+System.out.println(isEven.test(5));  // false
+6. BiFunction<T, U, R>
+Similar a Function, mas aceita dois argumentos e retorna um valor.
+
+Método abstrato: R apply(T t, U u)
+Exemplo:
+
+java
+Copiar código
+BiFunction<Integer, Integer, Integer> sum = (a, b) -> a + b;
+System.out.println(sum.apply(2, 3));  // 5
+7. BiConsumer<T, U>
+Aceita dois argumentos, mas não retorna nenhum valor.
+
+Método abstrato: void accept(T t, U u)
+Exemplo:
+
+java
+Copiar código
+BiConsumer<String, Integer> printer = (name, age) -> System.out.println(name + " tem " + age + " anos");
+printer.accept("João", 30);
+8. UnaryOperator<T>
+É uma subinterface de Function. Representa uma função que aceita e retorna um valor do mesmo tipo.
+
+Método abstrato: T apply(T t)
+Exemplo:
+
+java
+Copiar código
+UnaryOperator<Integer> square = (n) -> n * n;
+System.out.println(square.apply(5));  // 25
+9. BinaryOperator<T>
+Subinterface de BiFunction, representa uma função que aceita dois argumentos do mesmo tipo e retorna um valor do mesmo tipo.
+
+Método abstrato: T apply(T t1, T t2)
+Exemplo:
+
+java
+Copiar código
+BinaryOperator<Integer> multiply = (a, b) -> a * b;
+System.out.println(multiply.apply(3, 4));  // 12
+Essas são as interfaces funcionais mais comumente usadas em Java. Elas ajudam a simplificar a programação ao permitir que funções sejam passadas como parâmetros para outros métodos, um dos conceitos centrais da programação funcional.

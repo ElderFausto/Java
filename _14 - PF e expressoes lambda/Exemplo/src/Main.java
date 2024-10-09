@@ -1,5 +1,5 @@
 import entities.Product;
-import util.ProductPredicate;
+import model.services.ProductServices;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,12 +14,10 @@ public class Main {
     list.add(new Product("Notebook", 1200.00));
     list.add(new Product("Tablet", 450.00));
 
-    // list.removeIf(Product::staticProductPredicate);
+    ProductServices ps = new ProductServices();
 
-    list.removeIf(p -> p.getPrice() >= 100);
+    double sum = ps.filteredSum(list, p -> p.getName().charAt(0) == 'T');
 
-    for (Product p : list) {
-      System.out.println(p);
-    }
+    System.out.println("Sum = " + String.format("%.2f", sum));
   }
 }
